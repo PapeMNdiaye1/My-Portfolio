@@ -25,6 +25,10 @@ import Msad3 from '../Style/Image/MSAD - 3.jpg';
 import Msad4 from '../Style/Image/MSAD - 4.jpg';
 import Msad5 from '../Style/Image/MSAD - 5.jpg';
 
+import Arch1 from '../Style/Image/ArchViz-1.jpg';
+import Arch2 from '../Style/Image/ArchViz-2.jpg';
+import Arch3 from '../Style/Image/ArchViz-3.jpg';
+import Arch4 from '../Style/Image/ArchViz-4.jpg';
 
 
 
@@ -122,13 +126,13 @@ const Work = () => {
             </div>
 
             <div className="web_work ">
+                <OneStuffsContainer parentCallback={clickOnWork} theId="ArchViz" title="ArchViz" gotALink={true} description='ArchViz est un studio de visualisation architecturale, nous créons des images et animations Photoréalismes pour architectes, designers, promoteurs immobiliers etc...' theLink={'http://arch-viz.herokuapp.com/'} Images={[Arch1, Arch2, Arch3, Arch4]} />
                 <OneStuffsContainer parentCallback={clickOnWork} theId="Geek-Blog" title="Geek Blog" gotALink={true}
                     description={`Cette platform est mon premier projet M.E.R.N. Il s'agit d'un réseau social ou il est possible de fair des posts de comanter des posts et de chater avec des amis.
 ps: le code est en open-source sur mon Github`} theLink={'https://geek--blog.herokuapp.com/SignUp'} Images0={GeekBlog1} Images={[GeekBlog1, GeekBlog2, GeekBlog3, GeekBlog4, GeekBlog5]} />
+                <OneStuffsContainer parentCallback={clickOnWork} theId="MSAD" title="MSAD (Virtual Reality Experience)" gotALink={true} description='Expériences de réalité virtuelle réalisé pour la M.S.A.D de Thiés. Nous pouvons vous aider à améliorer vos ventes avec cette technologie en constante évolution.' theLink={'https://papemndiaye1.github.io/MSAT-WebSite/'} Images={[Msad1, Msad2, Msad3, Msad4, Msad5]} />
                 <OneStuffsContainer parentCallback={clickOnWork} theId="Sy-Portfolio" title="Baba Sy Portfolio" gotALink={false} description="Ceci est le portfolio d'artiste plasticien le site a une architecture simple comportant la biographie , présentation des oeuvres et présentation de l'atelier." theLink={'test'} Images={[BabaSy1, BabaSy2, BabaSy3, BabaSy4]} />
                 <OneStuffsContainer parentCallback={clickOnWork} theId="Hacker-House" title="Hacker-House" gotALink={false} description='Ce project est toujour en production , la plateforme sera un lieu de partage pour les pogrammeurs.' theLink={'test'} Images={[Hacker1, Hacker2, Hacker3, Hacker4, Hacker5]} />
-                <OneStuffsContainer parentCallback={clickOnWork} theId="MSAD" title="MSAD (Virtual Reality Experience)" gotALink={true} description='Expériences de réalité virtuelle réalisé pour la M.S.A.D de Thiés. Nous pouvons vous aider à améliorer vos ventes avec cette technologie en constante évolution.' theLink={'https://papemndiaye1.github.io/MSAT-WebSite/'} Images={[Msad1, Msad2, Msad3, Msad4, Msad5]} />
-                {/* <OneStuffsContainer parentCallback={clickOnWork} theId="MSAD" title="MSAD (Virtual Reality Experience)" gotALink={true} description='Expériences de réalité virtuelle réalisé pour la M.S.A.D de Thiés. Nous pouvons vous aider à améliorer vos ventes avec cette technologie en constante évolution.' theLink={'https://papemndiaye1.github.io/MSAT-WebSite/'} Images={[Msad1, Msad2, Msad3, Msad4, Msad5]} /> */}
                 {/* <OneStuffsContainer parentCallback={clickOnWork} theId="Chrysalide3D" title="Chrysalide3D" gotALink={false} description='Ce project est toujour en production' theLink={'test'} Images={[Chrysalide]} /> */}
                 {PresentationDesign && <WorkPresentation parentCallback={closeWorkPresentation} theTitle={theDesignPresentationTitle} theDescription={theDesignPresentationDescription} theImagesToPresentation={ImagesToPresentation} gotALinkOrNot={gotALinkOrNot} theLink={theLinkToSet} />}
             </div>
