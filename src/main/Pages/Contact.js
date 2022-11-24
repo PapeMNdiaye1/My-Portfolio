@@ -16,8 +16,8 @@ function Contact() {
             <div class="contact_container_flex">
                 <div class="contact_container">
 
-                    <a href="https://github.com/PapeMNdiaye1" target="_blank">
-                        <div onMouseOver={hoverOnContact} class="contact_cart">github</div>
+                    <a href="https://api.whatsapp.com/send?phone=221777278655&text=The message" target="_blank">
+                        <div onMouseOver={hoverOnContact} class="contact_cart">Whatsapp</div>
                     </a>
                     <a href="https://www.linkedin.com/in/pape-momar-ndiaye-37b862199/" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">linkedin</div>

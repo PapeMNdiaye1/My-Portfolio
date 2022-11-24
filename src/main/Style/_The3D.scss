@@ -28,7 +28,7 @@
 
         .The3D-container {
             width: 90%;
-            min-height: 24em;
+            min-height: 29em;
             height: auto;
             border: var(--color0) .5em solid;
             border-radius: .5em;
@@ -37,7 +37,8 @@
             margin-top: 5em;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 1fr 4em;
+            grid-template-rows: 1fr auto;
+            // background-color: aqua;
 
             .The3D-Smoll-container {
                 border: var(--colorX) .1em solid;
@@ -77,7 +78,7 @@
 
             .The3D-container-part-text {
                 width: 90%;
-                height: 90%;
+                min-height: 100%;
                 margin: auto;
                 font-size: .8em;
                 font-weight: 400;
@@ -86,10 +87,28 @@
                 grid-row-start: 2;
                 z-index: 1;
                 text-decoration: none;
+                // background-color: salmon;
+                height: auto;
 
-                .network {
-                    color: var(--colorX);
-                    font-weight: 600;
+                a {
+                    text-decoration: none;
+
+                    .network {
+                        color: var(--colorX);
+                        font-weight: 700;
+
+                        ion-icon {
+                            top: .3em;
+                            font-size: 1.2em;
+                        }
+
+                        &:hover {
+                            // color: red;
+                            transform: scale(1.02);
+
+                        }
+                    }
+
                 }
 
                 span {
@@ -100,7 +119,7 @@
 
         .The3D-container:nth-child(1) {
             grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 1fr 1fr 4em;
+            grid-template-rows: 1fr 1fr auto;
             height: 50em;
 
             .The3D-container-part-text {
@@ -144,7 +163,7 @@
 
         .The3D-container:nth-child(2) {
             grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 1fr 1fr 4em;
+            grid-template-rows: 1fr 1fr auto;
             height: 50em;
 
             .The3D-container-part-text {
@@ -187,7 +206,7 @@
         }
 
         .The3D-container:nth-child(3) {
-            grid-template-rows: 1fr 1fr 4em;
+            grid-template-rows: 1fr 1fr auto;
             height: 40em;
 
             .The3D-container-part-text {

@@ -127,7 +127,8 @@ const Work = () => {
 ps: le code est en open-source sur mon Github`} theLink={'https://geek--blog.herokuapp.com/SignUp'} Images0={GeekBlog1} Images={[GeekBlog1, GeekBlog2, GeekBlog3, GeekBlog4, GeekBlog5]} />
                 <OneStuffsContainer parentCallback={clickOnWork} theId="Sy-Portfolio" title="Baba Sy Portfolio" gotALink={false} description="Ceci est le portfolio d'artiste plasticien le site a une architecture simple comportant la biographie , présentation des oeuvres et présentation de l'atelier." theLink={'test'} Images={[BabaSy1, BabaSy2, BabaSy3, BabaSy4]} />
                 <OneStuffsContainer parentCallback={clickOnWork} theId="Hacker-House" title="Hacker-House" gotALink={false} description='Ce project est toujour en production , la plateforme sera un lieu de partage pour les pogrammeurs.' theLink={'test'} Images={[Hacker1, Hacker2, Hacker3, Hacker4, Hacker5]} />
-                <OneStuffsContainer parentCallback={clickOnWork} theId="MSAD" title="MSAD (Virtual Reality Experience)" gotALink={true} description='Cesi est une expérience de réalité virtuelle créer pou les MSAD(Manufacture Des Arts Décoratifs De Thiès)' theLink={'https://papemndiaye1.github.io/MSAT-WebSite/'} Images={[Msad1, Msad2, Msad3, Msad4, Msad5]} />
+                <OneStuffsContainer parentCallback={clickOnWork} theId="MSAD" title="MSAD (Virtual Reality Experience)" gotALink={true} description='Expériences de réalité virtuelle réalisé pour la M.S.A.D de Thiés. Nous pouvons vous aider à améliorer vos ventes avec cette technologie en constante évolution.' theLink={'https://papemndiaye1.github.io/MSAT-WebSite/'} Images={[Msad1, Msad2, Msad3, Msad4, Msad5]} />
+                {/* <OneStuffsContainer parentCallback={clickOnWork} theId="MSAD" title="MSAD (Virtual Reality Experience)" gotALink={true} description='Expériences de réalité virtuelle réalisé pour la M.S.A.D de Thiés. Nous pouvons vous aider à améliorer vos ventes avec cette technologie en constante évolution.' theLink={'https://papemndiaye1.github.io/MSAT-WebSite/'} Images={[Msad1, Msad2, Msad3, Msad4, Msad5]} /> */}
                 {/* <OneStuffsContainer parentCallback={clickOnWork} theId="Chrysalide3D" title="Chrysalide3D" gotALink={false} description='Ce project est toujour en production' theLink={'test'} Images={[Chrysalide]} /> */}
                 {PresentationDesign && <WorkPresentation parentCallback={closeWorkPresentation} theTitle={theDesignPresentationTitle} theDescription={theDesignPresentationDescription} theImagesToPresentation={ImagesToPresentation} gotALinkOrNot={gotALinkOrNot} theLink={theLinkToSet} />}
             </div>
@@ -135,5 +136,5 @@ ps: le code est en open-source sur mon Github`} theLink={'https://geek--blog.her
     )
 }
 
-export default Work 
+export default Work
 

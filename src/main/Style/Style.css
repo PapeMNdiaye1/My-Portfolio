@@ -1977,7 +1977,7 @@
 
 #home-container #The3D #The3D-big-container .The3D-container {
   width: 90%;
-  min-height: 24em;
+  min-height: 29em;
   height: auto;
   border: var(--color0) 0.5em solid;
   border-radius: .5em;
@@ -1989,8 +1989,8 @@
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: 1fr 4em;
-      grid-template-rows: 1fr 4em;
+  -ms-grid-rows: 1fr auto;
+      grid-template-rows: 1fr auto;
 }
 
 #home-container #The3D #The3D-big-container .The3D-container .The3D-Smoll-container {
@@ -2033,7 +2033,7 @@
 
 #home-container #The3D #The3D-big-container .The3D-container .The3D-container-part-text {
   width: 90%;
-  height: 90%;
+  min-height: 100%;
   margin: auto;
   font-size: .8em;
   font-weight: 400;
@@ -2044,11 +2044,26 @@
       grid-row-start: 2;
   z-index: 1;
   text-decoration: none;
+  height: auto;
 }
 
-#home-container #The3D #The3D-big-container .The3D-container .The3D-container-part-text .network {
+#home-container #The3D #The3D-big-container .The3D-container .The3D-container-part-text a {
+  text-decoration: none;
+}
+
+#home-container #The3D #The3D-big-container .The3D-container .The3D-container-part-text a .network {
   color: var(--colorX);
-  font-weight: 600;
+  font-weight: 700;
+}
+
+#home-container #The3D #The3D-big-container .The3D-container .The3D-container-part-text a .network ion-icon {
+  top: .3em;
+  font-size: 1.2em;
+}
+
+#home-container #The3D #The3D-big-container .The3D-container .The3D-container-part-text a .network:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 #home-container #The3D #The3D-big-container .The3D-container .The3D-container-part-text span {
@@ -2058,8 +2073,8 @@
 #home-container #The3D #The3D-big-container .The3D-container:nth-child(1) {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: 1fr 1fr 4em;
-      grid-template-rows: 1fr 1fr 4em;
+  -ms-grid-rows: 1fr 1fr auto;
+      grid-template-rows: 1fr 1fr auto;
   height: 50em;
 }
 
@@ -2107,8 +2122,8 @@
 #home-container #The3D #The3D-big-container .The3D-container:nth-child(2) {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: 1fr 1fr 4em;
-      grid-template-rows: 1fr 1fr 4em;
+  -ms-grid-rows: 1fr 1fr auto;
+      grid-template-rows: 1fr 1fr auto;
   height: 50em;
 }
 
@@ -2150,8 +2165,8 @@
 }
 
 #home-container #The3D #The3D-big-container .The3D-container:nth-child(3) {
-  -ms-grid-rows: 1fr 1fr 4em;
-      grid-template-rows: 1fr 1fr 4em;
+  -ms-grid-rows: 1fr 1fr auto;
+      grid-template-rows: 1fr 1fr auto;
   height: 40em;
 }
 

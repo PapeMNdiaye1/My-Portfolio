@@ -63,7 +63,7 @@ function Logos({ title }) {
                     </div>
                     <div className="Logos-container-part-text">
                         <span>Demande du client : </span>
-                        Creation de Logo pour une photographe professionnel,
+                        Création de Logo pour une photographe professionnel,
                         le logo devait être moderne et proche de la street culture.
                     </div>
                 </div>

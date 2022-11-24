@@ -129,11 +129,12 @@ function Design({ title }) {
             </div>
             <div className='network'>
                 <div className="network_container">
-                    <a href="https://github.com/PapeMNdiaye1" target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=221777278655&text=The message" target="_blank">
                         <div className="network">
-                            <ion-icon name="logo-github"></ion-icon>
+                            <ion-icon name="logo-whatsapp"></ion-icon>
                         </div>
                     </a>
+
                     <a href="https://www.instagram.com/pape_momar_ndiaye/" target="_blank">
                         <div className="network">
                             <ion-icon name="logo-instagram"></ion-icon>
