@@ -1,12 +1,4 @@
-import { React, PropTypes, useEffect } from 'react'
-import Image from '../Style/Image/Moi-Sur-Fond-Noir-1-min.jpg';
-
-
-
-
-//   return <img src={logo} alt="Logo" />;
-
-
+import { React, } from 'react'
 
 
 function Intro({ title }) {
@@ -29,7 +21,6 @@ function Intro({ title }) {
 
                     </div>
                     <div className='profile-picture'>
-
                     </div>
 
                 </div>
@@ -77,10 +68,6 @@ function Intro({ title }) {
 
 
             <div className="network_container">
-
-                {/* <a  target="_blank">
-                    <div onMouseOver={hoverOnContact} class="contact_cart">Whatsapp</div>
-                </a> */}
 
                 <a href="https://api.whatsapp.com/send?phone=221777278655&text=The message" target="_blank">
                     <div className="network">

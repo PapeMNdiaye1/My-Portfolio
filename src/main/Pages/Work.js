@@ -126,7 +126,7 @@ const Work = () => {
             </div>
 
             <div className="web_work ">
-                <OneStuffsContainer parentCallback={clickOnWork} theId="ArchViz" title="ArchViz" gotALink={true} description='ArchViz est un studio de visualisation architecturale, nous créons des images et animations Photoréalismes pour architectes, designers, promoteurs immobiliers etc...' theLink={'http://arch-viz.herokuapp.com/'} Images={[Arch1, Arch2, Arch3, Arch4]} />
+                <OneStuffsContainer parentCallback={clickOnWork} theId="ArchViz" title="ArchViz" gotALink={true} description='ArchViz est un studio de visualisation architecturale, nous créons des images et animations Photoréalismes pour architectes, designers, promoteurs immobiliers etc...' theLink={'https://archviz.netlify.app/'} Images={[Arch1, Arch2, Arch3, Arch4]} />
                 <OneStuffsContainer parentCallback={clickOnWork} theId="Geek-Blog" title="Geek Blog" gotALink={true}
                     description={`Cette platform est mon premier projet M.E.R.N. Il s'agit d'un réseau social ou il est possible de fair des posts de comanter des posts et de chater avec des amis.
 ps: le code est en open-source sur mon Github`} theLink={'https://geek--blog.herokuapp.com/SignUp'} Images0={GeekBlog1} Images={[GeekBlog1, GeekBlog2, GeekBlog3, GeekBlog4, GeekBlog5]} />

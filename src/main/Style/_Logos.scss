@@ -77,7 +77,30 @@
 
         }
 
+
         .Logos-container:nth-child(1) {
+            .Logo-Smoll-container:nth-child(1) {
+                background-image: url(./Image/Logos/Cassel-1.svg);
+            }
+
+
+            .Logo-Smoll-container:nth-child(2) {
+                background-image: url(./Image/Logos/Cassel-2.svg);
+
+            }
+
+            .Logo-Smoll-container:nth-child(3) {
+                background-image: url(./Image/Logos/Cassel-3.svg);
+            }
+
+            .Logos-container-part-text {
+                grid-row: 2;
+                grid-column: 1;
+            }
+        }
+
+
+        .Logos-container:nth-child(2) {
             .Logo-Smoll-container:nth-child(1) {
                 background-image: url(./Image/Logos/Ina_1.svg);
 
@@ -92,7 +115,7 @@
             }
         }
 
-        .Logos-container:nth-child(2) {
+        .Logos-container:nth-child(3) {
             .Logo-Smoll-container:nth-child(1) {
                 background-image: url(./Image/Logos/Vertical_1.svg);
 
@@ -108,7 +131,7 @@
             }
         }
 
-        .Logos-container:nth-child(3) {
+        .Logos-container:nth-child(4) {
             .Logo-Smoll-container:nth-child(1) {
                 background-image: url(./Image/Logos/Elle_1.svg);
 
@@ -124,7 +147,7 @@
             }
         }
 
-        .Logos-container:nth-child(4) {
+        .Logos-container:nth-child(5) {
             .Logo-Smoll-container:nth-child(1) {
                 background-image: url(./Image/Logos/404_1.svg);
 
@@ -205,7 +228,6 @@
 
 @media all and (max-width: 1000px) {
     #TheLogos {
-        // overflow-y: scroll;
         overflow-x: hidden;
 
 
@@ -261,6 +283,23 @@
             }
 
             .Logos-container:nth-child(1) {
+                // grid-template-columns: 1fr;
+                // grid-template-rows: repeat(6, auto);
+                margin-top: 5em;
+                // margin-bottom: 5em;
+
+                .Logo-Smoll-container {
+                    background-size: 40%;
+
+                }
+
+                .Logos-container-part-text {
+                    grid-row: 4;
+                    grid-column: 1;
+                }
+            }
+
+            .Logos-container:nth-child(2) {
                 margin-top: 5em;
 
                 .Logo-Smoll-container:nth-child(3) {
@@ -269,20 +308,20 @@
                 }
             }
 
-            .Logos-container:nth-child(2) {
+            .Logos-container:nth-child(3) {
                 .Logo-Smoll-container:nth-child(3) {
                     background-size: 70%;
 
                 }
             }
 
-            .Logos-container:nth-child(3) {
+            .Logos-container:nth-child(4) {
                 .Logo-Smoll-container:nth-child(2) {
                     background-size: 70%;
                 }
             }
 
-            .Logos-container:nth-child(4) {
+            .Logos-container:nth-child(5) {
                 .Logo-Smoll-container:nth-child(2) {
                     background-size: 70%;
                 }

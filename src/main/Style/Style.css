@@ -1733,46 +1733,65 @@
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(1) .Logo-Smoll-container:nth-child(1) {
-  background-image: url(./Image/Logos/Ina_1.svg);
+  background-image: url(./Image/Logos/Cassel-1.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(1) .Logo-Smoll-container:nth-child(2) {
-  background-image: url(./Image/Logos/logo_2.svg);
+  background-image: url(./Image/Logos/Cassel-2.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(1) .Logo-Smoll-container:nth-child(3) {
-  background-image: url(./Image/Logos/Ina_5.svg);
+  background-image: url(./Image/Logos/Cassel-3.svg);
+}
+
+#home-container #TheLogos #Logos-big-container .Logos-container:nth-child(1) .Logos-container-part-text {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+  grid-column: 1;
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(2) .Logo-Smoll-container:nth-child(1) {
-  background-image: url(./Image/Logos/Vertical_1.svg);
+  background-image: url(./Image/Logos/Ina_1.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(2) .Logo-Smoll-container:nth-child(2) {
-  background-image: url(./Image/Logos/Vertical_3.svg);
+  background-image: url(./Image/Logos/logo_2.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(2) .Logo-Smoll-container:nth-child(3) {
-  background-image: url(./Image/Logos/Boo_1.svg);
+  background-image: url(./Image/Logos/Ina_5.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(3) .Logo-Smoll-container:nth-child(1) {
-  background-image: url(./Image/Logos/Elle_1.svg);
+  background-image: url(./Image/Logos/Vertical_1.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(3) .Logo-Smoll-container:nth-child(2) {
-  background-image: url(./Image/Logos/Elle_3.svg);
+  background-image: url(./Image/Logos/Vertical_3.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(3) .Logo-Smoll-container:nth-child(3) {
-  background-image: url(./Image/Logos/Elle_5.svg);
+  background-image: url(./Image/Logos/Boo_1.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(4) .Logo-Smoll-container:nth-child(1) {
-  background-image: url(./Image/Logos/404_1.svg);
+  background-image: url(./Image/Logos/Elle_1.svg);
 }
 
 #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(4) .Logo-Smoll-container:nth-child(2) {
+  background-image: url(./Image/Logos/Elle_3.svg);
+}
+
+#home-container #TheLogos #Logos-big-container .Logos-container:nth-child(4) .Logo-Smoll-container:nth-child(3) {
+  background-image: url(./Image/Logos/Elle_5.svg);
+}
+
+#home-container #TheLogos #Logos-big-container .Logos-container:nth-child(5) .Logo-Smoll-container:nth-child(1) {
+  background-image: url(./Image/Logos/404_1.svg);
+}
+
+#home-container #TheLogos #Logos-big-container .Logos-container:nth-child(5) .Logo-Smoll-container:nth-child(2) {
   background-image: url(./Image/Logos/404_3.svg);
 }
 
@@ -1913,19 +1932,31 @@
   #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(1) {
     margin-top: 5em;
   }
-  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(1) .Logo-Smoll-container:nth-child(3) {
-    background-size: 70%;
+  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(1) .Logo-Smoll-container {
+    background-size: 40%;
+  }
+  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(1) .Logos-container-part-text {
+    -ms-grid-row: 4;
+    grid-row: 4;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(2) {
+    margin-top: 5em;
   }
   #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(2) .Logo-Smoll-container:nth-child(3) {
     background-size: 70%;
   }
-  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(3) .Logo-Smoll-container:nth-child(2) {
+  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(3) .Logo-Smoll-container:nth-child(3) {
     background-size: 70%;
   }
   #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(4) .Logo-Smoll-container:nth-child(2) {
     background-size: 70%;
   }
-  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(4) .Logo-Smoll-container:nth-child(3) {
+  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(5) .Logo-Smoll-container:nth-child(2) {
+    background-size: 70%;
+  }
+  #home-container #TheLogos #Logos-big-container .Logos-container:nth-child(5) .Logo-Smoll-container:nth-child(3) {
     display: none;
   }
   #home-container #TheLogos .design-presentation-container .design-container {
@@ -2242,31 +2273,108 @@
           animation-delay: 1.5s;
 }
 
-#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) {
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) {
   height: 27em;
 }
 
-#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container {
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .The3D-Smoll-container {
   width: 15em;
   min-height: 18.5em;
 }
 
-#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container:nth-child(1) {
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .The3D-Smoll-container:nth-child(1) {
   background-image: url(./Image/3D/PUB-2.jpg);
   -webkit-animation-delay: .5s;
           animation-delay: .5s;
 }
 
-#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container:nth-child(2) {
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .The3D-Smoll-container:nth-child(2) {
   background-image: url(./Image/3D/PUB-1.jpg);
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container:nth-child(3) {
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .The3D-Smoll-container:nth-child(3) {
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
   background-image: url(./Image/3D/PUB-3.jpg);
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .show-vertical-image {
+  margin: 1em;
+  width: 32em;
+  height: 45em;
+  background-position: center;
+  background-size: 103%;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  background-size: contain;
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .close-design {
+  position: absolute;
+  top: 0.1em;
+  right: 0.3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+  color: var(--colorX);
+  background: none;
+  font-size: 2em;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  z-index: 20;
+  cursor: pointer;
+  border: none;
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .close-design:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .close-design:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container {
+  width: 15em;
+  min-height: 8em;
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container:nth-child(1) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  background-image: url(./Image/3D/WRaptor-5.jpg);
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container:nth-child(2) {
+  background-image: url(./Image/3D/WRaptor-2.jpg);
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container:nth-child(3) {
+  background-image: url(./Image/3D/WRaptor-3.jpg);
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container:nth-child(4) {
+  background-image: url(./Image/3D/WRaptor-1.jpg);
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
 }
 
 #home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .show-vertical-image {
@@ -2488,14 +2596,27 @@
   #home-container #The3D #The3D-big-container .The3D-container:nth-child(5) {
     -ms-grid-columns: (auto)[0];
         grid-template-columns: repeat(0, auto);
+    -ms-grid-rows: (auto)[4] 5em;
+        grid-template-rows: repeat(4, auto) 5em;
+  }
+  #home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-container-part-text {
+    -ms-grid-row: 5;
+        grid-row-start: 5;
+  }
+  #home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container {
+    grid-column: span 2;
+  }
+  #home-container #The3D #The3D-big-container .The3D-container:nth-child(6) {
+    -ms-grid-columns: (auto)[0];
+        grid-template-columns: repeat(0, auto);
     -ms-grid-rows: (auto)[3] 5em;
         grid-template-rows: repeat(3, auto) 5em;
   }
-  #home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-container-part-text {
+  #home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .The3D-container-part-text {
     -ms-grid-row: 4;
         grid-row-start: 4;
   }
-  #home-container #The3D #The3D-big-container .The3D-container:nth-child(5) .The3D-Smoll-container {
+  #home-container #The3D #The3D-big-container .The3D-container:nth-child(6) .The3D-Smoll-container {
     grid-column: span 2;
   }
   #home-container #The3D .design-presentation-container .design-container {

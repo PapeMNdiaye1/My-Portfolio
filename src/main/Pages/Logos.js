@@ -61,12 +61,30 @@ function Logos({ title }) {
                     </div>
                     <div onClick={clickOnImage} className="Logo-Smoll-container">
                     </div>
+                    {/* <div onClick={clickOnImage} className="Logo-Smoll-container">
+                    </div>
+                    <div onClick={clickOnImage} className="Logo-Smoll-container">
+                    </div> */}
+                    <div className="Logos-container-part-text">
+                        <span>Demande du client : </span>
+                        Création d'un Logo pour une marque de bijoux traditionnels.
+                    </div>
+                </div>
+
+                <div className='Logos-container'>
+                    <div onClick={clickOnImage} className="Logo-Smoll-container">
+                    </div>
+                    <div onClick={clickOnImage} className="Logo-Smoll-container">
+                    </div>
+                    <div onClick={clickOnImage} className="Logo-Smoll-container">
+                    </div>
                     <div className="Logos-container-part-text">
                         <span>Demande du client : </span>
                         Création de Logo pour une photographe professionnel,
                         le logo devait être moderne et proche de la street culture.
                     </div>
                 </div>
+
                 <div className='Logos-container'>
                     <div onClick={clickOnImage} className="Logo-Smoll-container">
                     </div>

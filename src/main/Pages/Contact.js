@@ -28,13 +28,16 @@ function Contact() {
                     <a href="https://www.instagram.com/pape_momar_ndiaye/" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">instagram</div>
                     </a>
+                    <a href="mailto:pmomar44@gmail.com?subject=The message" target="_blank">
+                        <div onMouseOver={hoverOnContact} class="contact_cart">mail</div>
+                    </a>
 
                 </div>
             </div>
-            <div id="tel_gMail">
+            {/* <div id="tel_gMail">
                 Mail: Pmomar44@gmail.com <br />
                 Tel: 77 727 86 55
-            </div>
+            </div> */}
 
         </div>
     )
