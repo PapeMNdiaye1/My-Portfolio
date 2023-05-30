@@ -46,7 +46,7 @@ function Intro({ title }) {
 
                     <div id="intro">
                         <h4 className="intro_title">
-                            Je suis un Designer --et
+                            Je suis un Designer et
                             un développeur web freelance.
                             Allier les deux métiers me permet
                             d'avoir une vision globale
